@@ -1,4 +1,4 @@
-# Stroke Prediction
+# Stroke Prediction Project 👩🏼‍⚕️
 This project had two main parts:
 - Analyzing lead factors in stroke patients
 - Finding ways to reduce risk of stroke
