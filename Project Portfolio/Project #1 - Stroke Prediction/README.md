@@ -4,8 +4,7 @@ This project had two main parts:
 - Finding ways to reduce risk of stroke
 
 # Data Sources:
-- .....
-- .....
+- healthcare-dataset-stroke-data.csv (CSV file)
 
 ## Methods:
 - Power BI Desktop for data clean-up and visualization
