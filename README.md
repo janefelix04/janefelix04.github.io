@@ -8,7 +8,3 @@ Hi, I'm Jane! I am a student at Belmont University and an aspiring Data Analyst.
 ## 📬 Contact Me
 - 📧 Email: janefelix04@gmail.com
 - 💼 LinkedIn: [Jane Felix](www.linkedin.com/in/janefelix1221)
-
-title: "Jane's Portfolio"
-description: "Welcome to my portfolio! I'm passionate about data analytics, solving problems, and helping others."
-theme: jekyll-theme-cayman
