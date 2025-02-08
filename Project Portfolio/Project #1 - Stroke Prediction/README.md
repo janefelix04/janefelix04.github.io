@@ -1,5 +1,7 @@
 # Stroke Prediction
-This project had two main parts- finding what factors are leading causes of strokes and what steps can be taken to reduce the risk.
+This project had two main parts:
+- Analyzing lead factors in stroke patients
+- Finding ways to reduce risk of stroke
 
 # Data Sources:
 - .....
