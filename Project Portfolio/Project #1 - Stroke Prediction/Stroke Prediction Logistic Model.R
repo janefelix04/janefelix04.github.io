@@ -37,8 +37,7 @@ LogisticTrainModel <- glm(stroke ~ age + hypertension + heart_disease + work_typ
                           + smoking_statusnever.smoked + work_typeGovt_job, data = Trainset, family = "binomial")
 
 #12: Generating summary using training logistic model - will show us helpful info such as P-values
-#12.1: Use this summary to take out some features from step #11 that have very little importance
-#12.2: I removed all features with Pr(>|z|) > 0.96
+#12.1: Use this summary to take out features from step #11 that have very little importance
 summary(LogisticTrainModel)
 
 #13: Creating predictor & having it use our trained model with the test set
