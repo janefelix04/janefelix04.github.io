@@ -1,7 +1,8 @@
 # Stroke Prediction Project 👩🏼‍⚕️
-This project had two main parts:
-- Analyzing lead factors in stroke patients
-- Finding ways to reduce risk of stroke
+This project had three main parts:
+- Using PowerBI visualizations to analyze important features
+- Making a logistic model in R to predict strokes & further analyze features with largest stroke impacts
+- Finding ways to reduce those features that have the largest impacts on strokes
 
 # Data Sources:
 - healthcare-dataset-stroke-data.csv (CSV file)
