@@ -32,9 +32,9 @@ Trainset <- TrsfStrokedata[Partition,]
 Testset <- TrsfStrokedata[-Partition,]
 
 #11: Creating Logistic Model for training (leave out one of each past categorical)
-LogisticTrainModel <- glm(stroke ~ age + hypertension + heart_disease + ever_marriedYes +
-                          + Residence_typeRural + avg_glucose_level + smoking_statusformerly.smoked
-                          + smoking_statusnever.smoked, data = Trainset, family = "binomial")
+LogisticTrainModel <- glm(stroke ~ age + hypertension + heart_disease + work_typeSelf.employed + work_typePrivate
+                          + Residence_typeRural + avg_glucose_level + smoking_statusformerly.smoked + smoking_statussmokes
+                          + smoking_statusnever.smoked + work_typeGovt_job, data = Trainset, family = "binomial")
 
 #12: Generating summary using training logistic model - will show us helpful info such as P-values
 #12.1: Use this summary to take out some features from step #11 that have very little importance
@@ -71,4 +71,6 @@ CM <- confusionMatrix(Testset$PredictStroke, Testset$stroke)
 #21: Printing confusion matrix
 print(CM)
 
-## After running many times, accuracy 93-94%, which means that this logistic model is pretty accurate
+## After running many times, accuracy averaging around 93-94%
+## However, due to the limited number of positives (strokes) in the original dataset and the small size,
+## there is a lot of inconsistency each time it is run, especially with what features the model thinks are important
