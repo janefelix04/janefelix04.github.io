@@ -6,6 +6,7 @@ This project had three main parts:
 
 # Data Sources:
 - healthcare-dataset-stroke-data.csv (CSV file)
+- hypertension_dataset.csv (CSV file)
 
 ## Methods:
 - Power BI Desktop for data clean-up and visualization
