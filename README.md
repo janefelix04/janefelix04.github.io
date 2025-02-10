@@ -1,4 +1,4 @@
-# Welcome to My Portfolio 🌟
+# Welcome to My Portfolio 🎀
 Hi, I'm Jane! I am a student at Belmont University and an aspiring Data Analyst.
 
 I currently have a goal of completing several projects this semester to gain proficiency with programming languages and software.
@@ -9,3 +9,4 @@ I currently have a goal of completing several projects this semester to gain pro
 ## 📬 Contact Me
 - 📧 Email: janefelix04@gmail.com
 - 💼 LinkedIn: Jane Felix (www.linkedin.com/in/janefelix1221)
+- ☎️ Phone: +1-224-760-3631
