@@ -7,7 +7,7 @@ library(ggplot2)
 #2: Making bmi feature NULL, otherwise it messes with data
 strokedataoriginal$bmi <- NULL
 
-#3: One-hot encoding (categorical features -> numberical dummy variables)
+#3: One-hot encoding (categorical features -> numerical dummy variables)
 dmy <- dummyVars(" ~ . ", data = strokedataoriginal)
 
 #4: Applying transformation to data-set and ensuring it is stored as data frame
