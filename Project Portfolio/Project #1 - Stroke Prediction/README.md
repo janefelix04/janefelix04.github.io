@@ -12,7 +12,6 @@ This project had three main parts:
 - Power BI Desktop for data clean-up and visualization
 - R Studio/R for analytics
 - Canva for presentation
-- Panapto for video presentation/project walk-through
 
 ---
-Created by Jane Felix | Last updated 02/10/2025
+Created by Jane Felix | Last updated 02/12/2025
