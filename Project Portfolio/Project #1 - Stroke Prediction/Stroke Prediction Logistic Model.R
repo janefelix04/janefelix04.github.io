@@ -72,4 +72,5 @@ print(CM)
 
 ## After running many times, accuracy averaging around 93-94%
 ## However, due to the limited number of positives (strokes) in the original dataset and the small size,
-## there is a lot of inconsistency each time it is run, especially with what features the model thinks are important
+## there is some inconsistency each time it is run, primarily with what features the model thinks are important
+## (Though the top 2-3 tend to remain consistent)
